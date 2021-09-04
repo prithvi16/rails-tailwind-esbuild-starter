@@ -1,24 +1,21 @@
-# README
+# Rails 6.1, TailwindCSS 2, Esbuild boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Instructions
 
-Things you may want to cover:
+- Replace `starter` with `your-app-name`
+- Replace `Starter` with `YourAppName`
 
-* Ruby version
+```
+  bundle install
+  yarn
+```
 
-* System dependencies
+- To run app
+```
+  # terminal 1
+  yarn build --watch
+  # terminal 2
+  rails s
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+No webpack config files were harmed in this repository.
